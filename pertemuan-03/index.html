@@ -43,7 +43,6 @@
         padding-right: 16px;
         flex-shrink: 0;
     }
-
        @media (max-width: 600px) {
         #about p {
             flex-direction: column;
@@ -55,7 +54,6 @@
             margin-bottom: 2px;
         }
     }
-
 
     </style>
 </head>
@@ -91,6 +89,30 @@
             <p>&#128525; &#128512;</p>
 
         </section>
+
+<style>
+ #contact {
+    background-color: #17b5fe;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+#contact h2 {
+    color: #000000;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 6px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+</style>
+
+
         <section id="contact">
             <h2>kontak kami</h2>
            <form action="">
@@ -99,11 +121,12 @@
             <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" required autocomplete="name">
 
             <label for="txtEmail">Email:</label>
-           <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocomplete="email"
+           <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocomplete="email">
 
           <label for="txtPesan">Pesan:</label>
            <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis Pesan Anda..." required></textarea>
-           <button></button>
+           <button type="submit">Kirim</button>
+           <button type="reset">Batal</button>
         </form>
         </section>
     </main>

@@ -15,3 +15,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>Membuat styling text area<li>
 <li>Membuat styling button<li>
 <li>Membuat styling hover button<li>
+<li>Membuat styling mode mobile<li>

@@ -11,3 +11,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>Membuat styling selector id contact<li>
 <li>Membuat styling selector id contact h2<li>
 <li>Membuat styling selector form<li>
+<li>Membuat styling selector label nama,email,pesan<li>

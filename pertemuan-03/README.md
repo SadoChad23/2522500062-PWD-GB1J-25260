@@ -8,3 +8,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>Membuat styling selector id about p<li>
 <li>Membuat styling selector id about strong<li>
 <li>Membuat styling selector mode mobile<li>
+<li>Membuat styling selector id contact<li>
+<li>Membuat styling selector id contact h2<li>

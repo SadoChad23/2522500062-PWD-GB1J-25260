@@ -5,4 +5,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>Membuat struktur form untuk selection contact<li>
 <li>Membuat styling selector id about<li>
 <li>Membuat styling selector id about h2<li>
+<li>Membuat styling selector id about p<li>
 

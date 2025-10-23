@@ -18,3 +18,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>Membuat styling mode mobile<li>
 <li>Membuat footer ke center<li>
 <li>Membuat warna bergerak<li>
+<li>Styling button ke mode mobile<li>

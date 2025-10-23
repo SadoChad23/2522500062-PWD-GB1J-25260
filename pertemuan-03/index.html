@@ -90,8 +90,12 @@
         background-color: black;
         color:white;
         box-shadow: -5px -5px 20px purple, 5px 5px 20px purple;
+    
     }
 
+    footer p {
+        text-align: center;
+    }
        @media (max-width: 600px) {
         #about p {
             flex-direction: column;
@@ -101,6 +105,24 @@
             text-align: left;
             padding-right: 0;
             margin-bottom: 2px;
+        }
+        
+        #about p,
+        #contact label {
+        flex-direction: column;
+        align-items: flex-start;
+        }
+    
+        #about strong,
+        #contact label>span {
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 2px;
+        }
+        #contact input,
+        #contact textarea,
+        #contact button {
+        width: 100%;
         }
     }
 
@@ -157,14 +179,6 @@
         </form>
         </section>
     </main>
-
-    <style>
-footer p {
-
-    text-align: center;
-}
-
-    </style>
     <footer>
         <p>&copy; 2025 Muhamad wildan [2522500062]</p>
     </footer>

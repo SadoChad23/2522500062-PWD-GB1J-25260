@@ -169,4 +169,11 @@ header li a {
         #contact button {
         width: 100%;
         }
+        header{
+            padding: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
     }
+

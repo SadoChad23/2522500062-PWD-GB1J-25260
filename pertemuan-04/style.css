@@ -120,6 +120,9 @@ header li a {
     }
 
     footer p {
+        background: #222;
+        color: #aaa;
+        padding: 10px;
         text-align: center;
     }
        @media (max-width: 600px) {

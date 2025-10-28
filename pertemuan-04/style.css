@@ -125,6 +125,22 @@ header li a {
         padding: 10px;
         text-align: center;
     }
+
+    header li a:hover {
+        background-color: red;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+    header li a:focus {
+        outline: 2px solid #00f7ff;
+        outline-offset: 2px;
+        border-radius: 6px;
+        background-color: rgba(225, 225, 225, 0.15);
+    }
+    header li a:active {
+        background-color: #cc40a1;
+        transform: translateY(1px);
+    }
        @media (max-width: 600px) {
         #about p {
             flex-direction: column;

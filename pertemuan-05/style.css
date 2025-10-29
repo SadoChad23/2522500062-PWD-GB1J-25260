@@ -142,6 +142,15 @@ header li a {
         background-color: #cc40a1;
         transform: translateY(1px);
     }
+
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 28px;
+        cursor: pointer;
+    }
        @media (max-width: 600px) {
         #about p {
             flex-direction: column;

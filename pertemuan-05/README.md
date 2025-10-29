@@ -4,5 +4,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>copy item index dan css</li>
 <li>tombol hamburger</li>
 <li>class menu toggle</li>
-<li>copy item index dan css</li>
+<li>clas menu togle mode mobile</li>
 <li>copy item index dan css</li>

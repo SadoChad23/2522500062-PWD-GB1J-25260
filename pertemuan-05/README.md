@@ -8,3 +8,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>styling nav mobile</li>
 <li>styling nav menu mobile</li>
 <li>membuat file js</li>
+<li>interaksi javascript</li>

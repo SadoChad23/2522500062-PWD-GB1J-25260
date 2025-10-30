@@ -11,3 +11,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>interaksi javascript</li>
 <li>menambah validasi elemen</li>
 <li>menghapus pesan eror</li>
+<li>menghapus tanda eror pada input</li>

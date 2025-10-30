@@ -15,3 +15,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>inisialisasi variabel invalid</li>
 <li>membuat validasi input nama</li>
 <li>membuat validasi input email</li>
+<li>membuat validasi input pesan</li>

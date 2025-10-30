@@ -27,3 +27,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>membuat animasi togle silang dan hamburger</li>
 <li>const section home</li>
 <li>const ucapan </li>
+<li>text content selamat datang </li>

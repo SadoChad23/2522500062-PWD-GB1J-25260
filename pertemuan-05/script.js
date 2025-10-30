@@ -17,3 +17,4 @@ const email = document.getElementById("txtEmail");
 const pesan = document.getElementById("txtPesan");
 document.querySelectorAll(".error-msg").forEach(el => el.remove());
 [nama, email, pesan].forEach(el => el.style.border = "")});
+document.querySelectorAll(".error-msg").forEach(el => el.remove());

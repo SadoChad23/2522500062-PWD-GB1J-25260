@@ -21,3 +21,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>styling text salah</li>
 <li>Menyisipkan pesan error ke DOM</li>
 <li>Membuat bordear salah pada input form</li>
+<li>penyelarasan posisi pesan error</li>

@@ -18,3 +18,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>membuat validasi input pesan</li>
 <li>membuat validasi input pesan</li>
 <li>membuat alert pesan terimakasih</li>
+<li>styling text salah</li>

@@ -43,7 +43,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
     showError(email, "Email wajib diisi.");
     isValid = false;
   } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-    showError(email, "Format email tidak valid. Contoh: nama@mail.com");
+    showError(email, "Format email tidak valid. Contoh: nama@gmail.com");
     isValid = false;
   }
 
@@ -62,3 +62,17 @@ document.querySelector("form").addEventListener("submit", function(e) {
  
   alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
 });
+
+function showErrorWithLabel(inputElement, message) {
+const label = inputElement.closest("label");
+if (!label) return;
+label.style.flexWrap = "wrap";
+const small = document.createElement("small");
+small.className = "error-msg";
+small.textContent = message;
+small.style.color = "black";
+small.style.fontSize = "14px";
+small.style.display = "block";
+small.style.marginTop = "4px";
+small.style.flexBasis = "100%";
+small.dataset.forId = inputElement.id;}

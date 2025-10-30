@@ -87,3 +87,7 @@ const target = document.getElementById(small.dataset.forId);
 if (target) alignErrorMessage(small, target);
 });
 });
+document.getElementById("txtPesan").addEventListener("input", function () {
+const panjang = this.value.length;
+document.getElementById("charCount").textContent = panjang + "/200 karakter";
+});

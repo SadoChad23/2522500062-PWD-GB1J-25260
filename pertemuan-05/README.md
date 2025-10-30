@@ -28,3 +28,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>const section home</li>
 <li>const ucapan </li>
 <li>text content selamat datang </li>
+<li>menambah jumlah tekt yang diketik</li>

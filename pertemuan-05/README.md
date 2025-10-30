@@ -9,4 +9,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>styling nav menu mobile</li>
 <li>membuat file js</li>
 <li>interaksi javascript</li>
-<li>menambah validasi dan alert terimakasih</li>
+<li>menambah validasi elemen</li>

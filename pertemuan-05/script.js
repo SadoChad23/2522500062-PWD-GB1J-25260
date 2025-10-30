@@ -81,3 +81,4 @@ label.insertBefore(small, inputElement.nextSibling);
 } else {
 label.appendChild(small);
 }
+inputElement.style.border = "2px solid red";

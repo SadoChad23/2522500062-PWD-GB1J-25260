@@ -7,6 +7,9 @@ this.textContent = "\u2716";
 this.textContent = "\u2630";
 }
 });
+document.addEventListener("DOMContentLoaded", function () {
+const homeSection = document.getElementById("home");});
+
 document.querySelector("form").addEventListener("submit", function (e) {
 const nama = document.getElementById("txtNama");
 const email = document.getElementById("txtEmail");

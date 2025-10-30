@@ -13,3 +13,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>menghapus pesan eror</li>
 <li>menghapus tanda eror pada input</li>
 <li>inisialisasi variabel invalid</li>
+<li>membuat validasi input nama</li>

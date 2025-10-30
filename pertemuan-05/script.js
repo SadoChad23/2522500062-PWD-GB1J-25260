@@ -76,3 +76,8 @@ small.style.display = "block";
 small.style.marginTop = "4px";
 small.style.flexBasis = "100%";
 small.dataset.forId = inputElement.id;}
+if (inputElement.nextSibling) {
+label.insertBefore(small, inputElement.nextSibling);
+} else {
+label.appendChild(small);
+}

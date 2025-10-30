@@ -8,7 +8,9 @@ this.textContent = "\u2630";
 }
 });
 document.addEventListener("DOMContentLoaded", function () {
-const homeSection = document.getElementById("home");});
+const homeSection = document.getElementById("home");
+const ucapan = document.createElement("p");
+});
 
 document.querySelector("form").addEventListener("submit", function (e) {
 const nama = document.getElementById("txtNama");

@@ -26,3 +26,4 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR<ol>
 <li>penyesuaian ulang pesan error saat ukuran layar berubah</li>
 <li>membuat animasi togle silang dan hamburger</li>
 <li>const section home</li>
+<li>const ucapan </li>

@@ -99,3 +99,9 @@ const offsetLeft = Math.max(0, Math.round(rectInput.left - rectLabel.left));
 smallEl.style.marginLeft = offsetLeft + "px";
 smallEl.style.width = Math.round(rectInput.width) + "px";
 }
+window.addEventListener("resize", () => {
+document.querySelectorAll(".error-msg").forEach(small => {
+const target = document.getElementById(small.dataset.forId);
+if (target) alignErrorMessage(small, target);
+});
+});

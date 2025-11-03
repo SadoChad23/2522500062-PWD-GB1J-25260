@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Wildan</h1>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Selamat Datang</h2>
+            <p>Ini contoh paragraf Data diri saya.</p>
+        </section>
+        <section id="about">
+            <h2>Tentang kami</h2>
+            <p><strong>Nim              :</strong> 2522500062.</p>
+            <p><strong>Nama             :</strong> Muhamad Wildan.</p>
+            <p><strong>Tempat Lahir     :</strong> Pangkalpinang.</p>
+            <p><strong>Tanggal Lahir    :</strong> 23-04-2007.</p>
+            <p><strong>Hoby             :</strong> Workout.</p>
+            <p><strong>Pasangan         :</strong> Bujangan.</p>
+            <p><strong>Pekerjaan        :</strong> Mencari Usaha.</p>
+            <p><strong>Nama Ayah        :</strong> Hadi Sudarmawan.</p>
+            <P><strong>Nama Ibu         :</strong> Megawati.</P>
+            <P><strong>Nama Abang       :</strong> Fitgathan</P>
+            <p><strong>Nama Adik        :</strong> Muhammad Raifan dan Muhammad Raihan</p>
+            <p>&#128525; &#128512;</p>
+        </section>
+        <section id="contact">
+            <h2>kontak kami</h2>
+           <form action="">
+
+            <label for="txtNama"><span>Nama:</span>
+            <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" required autocomplete="name"></label>
+
+            <label for="txtEmail"><span>Email:</span>
+           <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocomplete="email"></label>
+
+          <label for="txtPesan"><span>Pesan:</span>
+           <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis Pesan Anda..." required></textarea></label>
+           <small id="charCount">0/200 karakter</small>
+           <button type="submit">Kirim</button>
+           <button type="reset">Batal</button>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Muhamad wildan [2522500062]</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

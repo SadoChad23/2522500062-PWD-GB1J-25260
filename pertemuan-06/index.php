@@ -21,7 +21,7 @@
     <main>
         <section id="home">
             <h2>Selamat Datang</h2>
-            <p>Ini contoh paragraf Data diri saya.</p>
+            <?php echo " Tes php "; ?>
         </section>
         <section id="about">
             <h2>Tentang kami</h2>

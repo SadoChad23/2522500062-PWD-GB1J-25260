@@ -8,4 +8,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR
 <li>membuat variabel nilai akhir </li>
 <li>perhitungan nilai akhir 1 </li>
 <li>perhitungan nilai akhir 2 </li>
+<li>perhitungan nilai akhir 3 </li>
 <ol>

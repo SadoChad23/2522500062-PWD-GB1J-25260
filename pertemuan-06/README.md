@@ -11,4 +11,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR
 <li>perhitungan nilai akhir 3 </li>
 <li>perhitungan nilai akhir 4 </li>
 <li>perhitungan nilai akhir 5 </li>
+<li>variabel bobot </li>
 <ol>

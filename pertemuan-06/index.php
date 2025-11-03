@@ -24,18 +24,31 @@
             <?php echo " Tes php "; ?>
         </section>
         <section id="about">
+            <?php echo 
+            $Nim = '2522500062';
+            $Nama = 'Muhammad Wildan';
+            $Tempatlahir = 'Pangkalpinang';
+            $Tanggallahir = '23 April 2007';
+            $Hoby = 'Workout';
+            $Pasangan = 'Bujangan.';
+            $Pekerjaan = 'Mencari Usaha';
+            $Namaibu = 'Megawati';
+            $Namaayah = 'Hadi Sudarmawan';
+            $Namaadek = 'Muhammad Raifan dan Muhammad Raihan';
+            $Namaabang = 'Fitgathan'
+            ?>
             <h2>Tentang kami</h2>
-            <p><strong>Nim              :</strong> 2522500062.</p>
-            <p><strong>Nama             :</strong> Muhamad Wildan.</p>
-            <p><strong>Tempat Lahir     :</strong> Pangkalpinang.</p>
-            <p><strong>Tanggal Lahir    :</strong> 23-04-2007.</p>
-            <p><strong>Hoby             :</strong> Workout.</p>
-            <p><strong>Pasangan         :</strong> Bujangan.</p>
-            <p><strong>Pekerjaan        :</strong> Mencari Usaha.</p>
-            <p><strong>Nama Ayah        :</strong> Hadi Sudarmawan.</p>
-            <P><strong>Nama Ibu         :</strong> Megawati.</P>
-            <P><strong>Nama Abang       :</strong> Fitgathan</P>
-            <p><strong>Nama Adik        :</strong> Muhammad Raifan dan Muhammad Raihan</p>
+            <p><strong>Nim              :</strong> <?php echo $Nim; ?></p>
+            <p><strong>Nama             :</strong> <?php echo $Nama; ?></p>
+            <p><strong>Tempat Lahir     :</strong> <?php echo $Tempatlahir; ?></p>
+            <p><strong>Tanggal Lahir    :</strong> <?php echo $Tanggallahir; ?></p>
+            <p><strong>Hoby             :</strong> <?php echo $Hoby; ?></p>
+            <p><strong>Pasangan         :</strong> <?php echo $Hoby; ?></p>
+            <p><strong>Pekerjaan        :</strong> <?php echo $Pekerjaan; ?></p>
+            <p><strong>Nama Ayah        :</strong> <?php echo $Namaayah; ?></p>
+            <P><strong>Nama Ibu         :</strong> <?php echo $Namaibu; ?></P>
+            <P><strong>Nama Abang       :</strong> <?php echo $Namaabang; ?></P>
+            <p><strong>Nama Adik        :</strong> <?php echo $Namaadek; ?></p>
             <p>&#128525; &#128512;</p>
         </section>
         <section id="contact">

@@ -24,7 +24,7 @@
             <?php echo " Tes php "; ?>
         </section>
         <section id="about">
-            <?php echo 
+            <?php
             $Nim = '2522500062';
             $Nama = 'Muhammad Wildan';
             $Tempatlahir = 'Pangkalpinang';
@@ -43,7 +43,7 @@
             <p><strong>Tempat Lahir     :</strong> <?php echo $Tempatlahir; ?></p>
             <p><strong>Tanggal Lahir    :</strong> <?php echo $Tanggallahir; ?></p>
             <p><strong>Hoby             :</strong> <?php echo $Hoby; ?></p>
-            <p><strong>Pasangan         :</strong> <?php echo $Hoby; ?></p>
+            <p><strong>Pasangan         :</strong> <?php echo $Pasangan; ?></p>
             <p><strong>Pekerjaan        :</strong> <?php echo $Pekerjaan; ?></p>
             <p><strong>Nama Ayah        :</strong> <?php echo $Namaayah; ?></p>
             <P><strong>Nama Ibu         :</strong> <?php echo $Namaibu; ?></P>

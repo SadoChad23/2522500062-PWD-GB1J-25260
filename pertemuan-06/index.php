@@ -302,7 +302,7 @@
        ?>
 
        <h2>Nilai </h2>
-          
+          <h3>MataKuliah 1</h3>
         <p><strong>Nama MataKuliah 1:</strong> <?php echo $namamatkul1; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul1; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir1; ?> </p>
@@ -314,7 +314,9 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu1; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot1; ?></p>
         <p><strong>Status:</strong> <?php echo $status1; ?></p>
-       
+        <hr>
+        <hr>
+      <h3>MataKuliah</h3>
         <p><strong>Nama MataKuliah 2:</strong> <?php echo $namamatkul2; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir2; ?></p>
@@ -326,7 +328,9 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu2; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot2; ?></p>
         <p><strong>Status:</strong> <?php echo $status2; ?></p>
-
+        <hr>
+        <hr>
+<h3>MataKuliah</h3>
  <p><strong>Nama MataKuliah 3:</strong> <?php echo $namamatkul3; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul3; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir3; ?></p>
@@ -338,7 +342,9 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu3; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot3; ?></p>
         <p><strong>Status:</strong> <?php echo $status3; ?></p>
-
+        <hr>
+        <hr>
+<h3>MataKuliah</h3>
         <p><strong>Nama MataKuliah 4:</strong> <?php echo $namamatkul4; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul4; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir4; ?></p>
@@ -350,7 +356,9 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu4; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot4; ?></p>
         <p><strong>Status:</strong> <?php echo $status4; ?></p>
-
+        <hr>
+        <hr>
+<h3>MataKuliah</h3>
          <p><strong>Nama MataKuliah 5:</strong> <?php echo $namamatkul5; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul5; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir5; ?></p>
@@ -362,11 +370,13 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu5; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
         <p><strong>Status:</strong> <?php echo $status5; ?></p>
+        <hr>
+        <hr>
         <H4>Total Keseluruhan</H4>
         <P><strong>Total Bobot:</strong><?php echo $totalbobot; ?></P>
         <p><strong>Total SKS:</strong><?php echo $totalsks; ?></p>
         <p><strong>IPK:</strong><?php echo $ipk; ?></p> 
-        
+
         </section>
         <section id="contact">
             <h2>kontak kami</h2>

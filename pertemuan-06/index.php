@@ -314,7 +314,21 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu1; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot1; ?></p>
         <p><strong>Status:</strong> <?php echo $status1; ?></p>
-        
+       
+        <p><strong>Nama MataKuliah 2:</strong> <?php echo $namamatkul2; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
+        <p><strong>Kehadiran:</strong> <?php echo $nilaihadir2; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas2; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts2; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas2; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir2; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade2; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu2; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot2; ?></p>
+        <p><strong>Status:</strong> <?php echo $status2; ?></p>
+
+
+
         </section>
         <section id="contact">
             <h2>kontak kami</h2>

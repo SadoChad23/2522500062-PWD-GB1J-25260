@@ -14,4 +14,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR
 <li>variabel bobot </li>
 <li>membuat perhitungan total bobot sks ipk </li>
 <li>membuat data matkul1 </li>
+<li>membuat data matkul2 </li>
 <ol>

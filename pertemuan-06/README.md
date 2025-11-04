@@ -13,4 +13,5 @@ HARI RABU TANGGAL 09 OKTOBER 2025 SAYA BELAJAR
 <li>perhitungan nilai akhir 5 </li>
 <li>variabel bobot </li>
 <li>membuat perhitungan total bobot sks ipk </li>
+<li>membuat data matkul1 </li>
 <ol>

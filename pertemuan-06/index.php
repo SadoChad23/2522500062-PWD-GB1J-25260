@@ -62,7 +62,7 @@
         $nilaiuas1='70';
             $namamatkul2='Logika Informatika';
         $sksmatkul2='3';
-        $nilaihadir2='50';
+        $nilaihadir2='80';
         $nilaitugas2='70';
         $nilaiuts2='90';
         $nilaiuas2='90';

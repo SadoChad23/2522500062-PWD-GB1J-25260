@@ -9,4 +9,5 @@ Kelompok: TI1A<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
+  <li>mengcopy file</li>
 </ol>

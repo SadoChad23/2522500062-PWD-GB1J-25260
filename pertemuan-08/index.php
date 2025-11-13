@@ -96,7 +96,9 @@ endif;
         <label for="txtNamaAdik"><span>Nama Adik:</span>
           <input type="NamaAdik" id="txtNamaAdik" name="txtNamaAdik" placeholder="Masukkan Nama Adik" required autocomplete="NamaAdik">
         </label>
-
+        
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
     </section>
 
     <section id="about">

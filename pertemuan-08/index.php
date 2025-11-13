@@ -15,6 +15,56 @@ $sespesan = "";
 if (isset($_SESSION["sespesan"])):
   $sespesan = $_SESSION["sespesan"];
 endif;
+
+$sesNIM = "";
+if (isset($_SESSION["sesNIM"])):
+  $sesNIM = $_SESSION["sesNIM"];
+endif;
+
+$sesNamaLengkap = "";
+if (isset($_SESSION["sesNamaLengkap"])):
+  $sesNamaLengkap = $_SESSION["sesNamaLengkap"];
+endif;
+
+$sesTempatLahir = "";
+if (isset($_SESSION["sesTempatLahir"])):
+  $sesTempatLahir = $_SESSION["sesTempatLahir"];
+endif;
+
+$sesTanggalLahir = "";
+if (isset($_SESSION["sesTanggalLahir"])):
+  $sesTanggalLahir = $_SESSION["sesTanggalLahir"];
+endif;
+
+$sesHobi = "";
+if (isset($_SESSION["sesHobi"])):
+  $sesHobi = $_SESSION["sesHobi"];
+endif;
+
+$sesPasangan = "";
+if (isset($_SESSION["sesPasangan"])):
+  $sesPasangan = $_SESSION["sesPasangan"];
+endif;
+
+$sesPekerjaan = "";
+if (isset($_SESSION["sesPekerjaan"])):
+  $sesPekerjaan = $_SESSION["sesPekerjaan"];
+endif;
+
+$sesNamaOrangTua = "";
+if (isset($_SESSION["sesNamaOrangTua"])):
+  $sesNamaOrangTua = $_SESSION["sesNamaOrangTua"];
+endif;
+
+$sesNamaKakak = "";
+if (isset($_SESSION["sesNamaKakak"])):
+  $sesNamaKakak = $_SESSION["sesNamaKakak"];
+endif;
+
+$sesNamaAdik = "";
+if (isset($_SESSION["sesNamaAdik"])):
+  $sesNamaAdik = $_SESSION["sesNamaAdik"];
+endif;
 ?>
 
 <!DOCTYPE html>

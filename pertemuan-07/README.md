@@ -5,4 +5,5 @@ nim : 2522500062 <br>
 <li>copy item yang diberikan</li>
 <li>file proses php</li>
 <li>menambah action proses php</li>
+<li>proses php dengan halo dan java ke submit</li>
 </ol>

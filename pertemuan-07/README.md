@@ -7,4 +7,5 @@ nim : 2522500062 <br>
 <li>menambah action proses php</li>
 <li>proses php dengan halo dan java ke submit</li>
 <li>mengambil input dari form contact</li>
+<li>mengambil input dari form contact dan tampil di bawah form file index.php</li>
 </ol>

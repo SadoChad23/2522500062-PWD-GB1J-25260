@@ -10,4 +10,5 @@ nim : 2522500062 <br>
 <li>mengambil input dari form contact dan tampil di bawah form file index.php</li>
 <li>membuat file hancur.php</li>
 <li>membuat sesi start dan destory</li>
+<li>membuat if dan endif</li>
 </ol>

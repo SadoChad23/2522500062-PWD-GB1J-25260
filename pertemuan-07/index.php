@@ -1,9 +1,17 @@
 <?php session_start();
 
-$sesinama = $_SESSION["txtNama"]??"";
-$sesiemail = $_SESSION["txtEmail"]??"";
-$sesipesan = $_SESSION["txtPesan"]??"";
-
+$sesinama="";
+if(isset($_SESSION["txtNama"])):
+  $sesinama = $_SESSION["txtNama"];
+endif;
+$sesiemail="";
+if(isset($_SESSION["txtEmail"])):
+  $sesiemail = $_SESSION["txtEmail"];
+endif;
+$sesipesan="";
+if(isset($_SESSION["txtPesan"])):
+  $sesipesan = $_SESSION["txtPesan"];
+endif;
 
 ?>
 
@@ -91,11 +99,12 @@ $sesipesan = $_SESSION["txtPesan"]??"";
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-
+      <?php if (!empty($sesinama)): ?>
       <h2>Siapa yang menghubungi?</h2>
       <p><strong>Nama:</strong> <?php echo $sesinama; ?> </p>
       <p><strong>Email:</strong><?php echo $sesiemail; ?></p>
       <p><strong>Pesan:</strong><?php echo $sesipesan; ?></p>
+      <?php endif; ?>
     </section>
   </main>
 

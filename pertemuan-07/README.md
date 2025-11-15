@@ -8,4 +8,5 @@ nim : 2522500062 <br>
 <li>proses php dengan halo dan java ke submit</li>
 <li>mengambil input dari form contact</li>
 <li>mengambil input dari form contact dan tampil di bawah form file index.php</li>
+<li>membuat file hancur.php</li>
 </ol>

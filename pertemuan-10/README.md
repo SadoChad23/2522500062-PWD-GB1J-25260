@@ -5,4 +5,5 @@ Muhamad Wildan <br>
 <li>membuat file koneksi php</li>
 <li>membuat database koneksi php</li>
 <li>membuat database db pwd2025</li>
+<li>membuat file read.php</li>
 </ol>

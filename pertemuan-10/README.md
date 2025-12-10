@@ -7,4 +7,5 @@ Muhamad Wildan <br>
 <li>membuat database db pwd2025</li>
 <li>membuat file read.php</li>
 <li>read.php dengan koneksi php ke phpmyadmin</li>
+<li>membuat 3 record di database</li>
 </ol>

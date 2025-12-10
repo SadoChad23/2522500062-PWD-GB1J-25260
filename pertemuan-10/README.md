@@ -4,4 +4,5 @@ Muhamad Wildan <br>
 <li>copy</li>
 <li>membuat file koneksi php</li>
 <li>membuat database koneksi php</li>
+<li>membuat database db pwd2025</li>
 </ol>

@@ -10,4 +10,5 @@ Muhamad Wildan <br>
 <li>membuat 3 record di database</li>
 <li>membuat file red inc</li>
 <li>membuat data file red inc</li>
+<li>membuat include index php</li>
 </ol>

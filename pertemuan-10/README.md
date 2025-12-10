@@ -6,4 +6,5 @@ Muhamad Wildan <br>
 <li>membuat database koneksi php</li>
 <li>membuat database db pwd2025</li>
 <li>membuat file read.php</li>
+<li>read.php dengan koneksi php ke phpmyadmin</li>
 </ol>

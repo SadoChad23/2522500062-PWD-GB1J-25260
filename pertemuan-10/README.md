@@ -11,4 +11,5 @@ Muhamad Wildan <br>
 <li>membuat file red inc</li>
 <li>membuat data file red inc</li>
 <li>membuat include index php</li>
+<li>menambah file localhost sql</li>
 </ol>

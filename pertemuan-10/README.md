@@ -9,4 +9,5 @@ Muhamad Wildan <br>
 <li>read.php dengan koneksi php ke phpmyadmin</li>
 <li>membuat 3 record di database</li>
 <li>membuat file red inc</li>
+<li>membuat data file red inc</li>
 </ol>

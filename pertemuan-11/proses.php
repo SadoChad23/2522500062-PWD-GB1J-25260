@@ -13,6 +13,29 @@ $nama  = bersihkan($_POST["txtNama"] ?? '');
 $email = bersihkan($_POST["txtEmail"] ?? '');
 $pesan = bersihkan($_POST["txtPesan"] ?? '');
 
+$errors = [];
+if ($nama === '') {
+    $errors[] = "Nama tidak boleh kosong.";
+}
+
+if ($email === '') {
+    $errors[] = "Email tidak boleh kosong.";
+} elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $errors[] = "Format email tidak valid.";
+}
+if ($pesan === '') {
+    $errors[] = "Pesan tidak boleh kosong.";
+}
+if (!empty($errors)) {
+    $_SESSION["old"] = [
+        "nama"  => $nama,
+        "email" => $email,
+        "pesan" => $pesan,
+    ];
+    $_SESSION["chad_error"] = implode("<br>", $errors);
+    redirect_ke("index.php#contact");
+    exit;
+}
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",
   "nama" => $_POST["txtNmLengkap"] ?? "",

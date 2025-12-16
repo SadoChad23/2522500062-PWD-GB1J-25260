@@ -4,4 +4,6 @@ muhamad wildan <br>
 <li>mengcopy item</li>
 <li>Update fungsi.php untuk helper redirect sederhana</li>
 <li>Tambah penangkap pesan sukses/gagal (flash message dari SESSION).</li>
+<li>Tampilkan flash message.</li>
+<li></li>
 </ol>

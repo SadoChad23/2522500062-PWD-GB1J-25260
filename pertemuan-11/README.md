@@ -12,5 +12,6 @@ muhamad wildan <br>
 <li>menambah prepared statement mysqli dan simpan pesan sukses/gagal ke $_SESSION serta
 redirect balik ke index.php#contact.</li>
 <li>menambah require idr</li>
+<li>menambah urutan nomor di read php</li>
 <li></li>
 </ol>

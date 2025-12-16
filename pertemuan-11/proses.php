@@ -9,6 +9,10 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
+$nama  = bersihkan($_POST["txtNama"] ?? '');
+$email = bersihkan($_POST["txtEmail"] ?? '');
+$pesan = bersihkan($_POST["txtPesan"] ?? '');
+
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",
   "nama" => $_POST["txtNmLengkap"] ?? "",

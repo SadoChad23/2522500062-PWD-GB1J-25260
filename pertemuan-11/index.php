@@ -109,6 +109,13 @@ require_once __DIR__ . '/fungsi.php';
       <?= tampilkanBiodata($fieldConfig, $biodata) ?>
     </section>
 
+    <?php
+      $chad_sukses = $_SESSION["chad_sukses"] ?? '';
+      $chad_error = $_SESSION["chad_error"] ?? '';
+      $old = $_SESSION["old"] ?? [];
+      unset($_SESSION["chad_sukses"], $_SESSION["chad_error"], $_SESSION["old"]);
+      ?>
+
     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">

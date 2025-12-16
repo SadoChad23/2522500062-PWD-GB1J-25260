@@ -16,6 +16,8 @@ $pesan = bersihkan($_POST["txtPesan"] ?? '');
 $errors = [];
 if ($nama === '') {
     $errors[] = "Nama tidak boleh kosong.";
+}elseif (strlen($nama) < 3) {
+    $errors[] = "Nama minimal 3 karakter!";
 }
 
 if ($email === '') {
@@ -25,6 +27,8 @@ if ($email === '') {
 }
 if ($pesan === '') {
     $errors[] = "Pesan tidak boleh kosong.";
+}elseif (strlen($pesan) < 10) {
+    $errors[] = "Pesan minimal 10 karakter!";
 }
 if (!empty($errors)) {
     $_SESSION["old"] = [

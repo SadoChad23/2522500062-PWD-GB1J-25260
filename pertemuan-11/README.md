@@ -9,5 +9,7 @@ muhamad wildan <br>
 <li>Cek REQUEST_METHOD apakah menggunakan 'POST'.</li>
 <li>Ambil data $_POST, trim, htmlspecialchars.</li>
 <li>Validasi (tidak boleh kosong, email valid).</li>
+<li>menambah prepared statement mysqli dan simpan pesan sukses/gagal ke $_SESSION serta
+redirect balik ke index.php#contact.</li>
 <li></li>
 </ol>

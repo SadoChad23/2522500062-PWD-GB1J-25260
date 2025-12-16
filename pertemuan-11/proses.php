@@ -36,6 +36,30 @@ if (!empty($errors)) {
     redirect_ke("index.php#contact");
     exit;
 }
+
+$sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?)";
+$stmt = mysqli_prepare($conn, $sql);
+
+if (!$stmt) {
+    $_SESSION["chad_error"] = "Gagal menyiapkan pernyataan: " . mysqli_error($conn);
+    redirect_ke("index.php#contact");
+    exit;
+}
+mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan);
+
+if (mysqli_stmt_execute($stmt)) {unset($_SESSION["old"]);
+    $_SESSION["chad_sukses"] = "Pesan Anda telah terkirim. Terima kasih!";
+} else {
+    $_SESSION["old"] = [
+        "nama"  => $nama,
+        "email" => $email,
+        "pesan" => $pesan,
+    ];
+    $_SESSION["chad_error"] = "Gagal mengirim pesan: ";
+    redirect_ke("index.php#contact");
+}
+mysqli_stmt_close($stmt);
+
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",
   "nama" => $_POST["txtNmLengkap"] ?? "",

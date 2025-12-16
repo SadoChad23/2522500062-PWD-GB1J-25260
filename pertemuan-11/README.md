@@ -17,5 +17,5 @@ redirect balik ke index.php#contact.</li>
 <li>menambah kode catcha</li>
 <li>menambah dcreated di database</li>
 <li>menambah created at di read</li>
-<li></li>
+<li>menambah local host baru</li>
 </ol>

@@ -11,5 +11,6 @@ muhamad wildan <br>
 <li>Validasi (tidak boleh kosong, email valid).</li>
 <li>menambah prepared statement mysqli dan simpan pesan sukses/gagal ke $_SESSION serta
 redirect balik ke index.php#contact.</li>
+<li>menambah require idr</li>
 <li></li>
 </ol>

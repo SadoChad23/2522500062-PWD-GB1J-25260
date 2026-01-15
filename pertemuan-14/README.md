@@ -7,3 +7,4 @@ muhammad wildan<br>
 <li>membuat file edit biodata </li>
 <li>membuat file proses_biodata</li>
 <li>membuat file proses_biodata update dan delete</li>
+<li>membuat file read dan inc biodata</li>

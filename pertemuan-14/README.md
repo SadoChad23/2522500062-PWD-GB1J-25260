@@ -4,3 +4,5 @@ muhammad wildan<br>
 <ol>
 <li>copy item yang diberikan </li>
 <li>memakai db yang diberikan </li>
+<li>membuat file edit biodata </li>
+<li>memakai db yang diberikan </li>

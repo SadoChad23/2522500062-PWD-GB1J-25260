@@ -6,3 +6,4 @@ muhammad wildan<br>
 <li>memakai db yang diberikan </li>
 <li>membuat file edit biodata </li>
 <li>membuat file proses_biodata</li>
+<li>membuat file proses_biodata update dan delete</li>

@@ -1,11 +1,14 @@
-<?php
-session_start();
-require 'koneksi.php';
-require 'fungsi.php';
 
-$sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
-$q   = mysqli_query($conn, $sql);
-$no = 1;
+<?php
+  session_start();
+  require 'koneksi.php';
+  require 'fungsi.php';
+
+  $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
+  $q = mysqli_query($conn, $sql);
+  if (!$q) {
+    die("Query error: " . mysqli_error($conn));
+  }
 ?>
 
 <?php
@@ -30,23 +33,28 @@ $no = 1;
 <?php endif; ?>
 
 <table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>No</th>
+    <th>Aksi</th>
+    <th>ID</th>
+    <th>Nama</th>
+    <th>Email</th>
+    <th>Pesan</th>
+    <th>Created At</th>
+  </tr>
+  <?php $i = 1; ?>
+  <?php while ($row = mysqli_fetch_assoc($q)): ?>
     <tr>
-        <th>No</th>
-        <th>ID</th>
-        <th>Nama</th>
-        <th>Email</th>
-        <th>Pesan</th>
-        <th>Created At</th>
+      <td><?= $i++ ?></td>
+      <td>
+        <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
+        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['cnama']); ?>?')" href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+      </td>
+      <td><?= $row['cid']; ?></td>
+      <td><?= htmlspecialchars($row['cnama']); ?></td>
+      <td><?= htmlspecialchars($row['cemail']); ?></td>
+      <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
+      <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
     </tr>
-
-    <?php while ($row = mysqli_fetch_assoc($q)): ?>
-    <tr>
-        <td><?= $no++; ?></td>
-        <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
-        <td><?= htmlspecialchars($row['cnama']); ?></td>
-        <td><?= htmlspecialchars($row['cemail']); ?></td>
-        <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
-         <td><?= htmlspecialchars($row['dcreated_at']); ?></td>
-    </tr>
-    <?php endwhile; ?>
+  <?php endwhile; ?>
 </table>

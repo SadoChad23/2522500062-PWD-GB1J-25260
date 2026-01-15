@@ -3,4 +3,5 @@ muhammad wildan<br>
 <ol>
 <li>copy item</li>
 <li>kode untuk read edit</li>
+<li>kode untuk edit.php</li>
 </ol>

@@ -4,4 +4,5 @@ muhamad wildan <br>
 <ol> 
     <li>mencopy item</li>
     <li>form input data anggota</li>
+    <li>proses insert data anggota</li>
 </ol>

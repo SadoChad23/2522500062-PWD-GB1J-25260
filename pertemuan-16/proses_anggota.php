@@ -23,4 +23,21 @@ $arrAnggota = [
 ];
 $_SESSION["anggota"] = $arrAnggota;
 
+<?php
+include 'koneksi.php';
+include 'fungsi.php';
+
+if (isset($_POST['kirim'])) {
+    $nama  = bersih($_POST['nama']);
+    $email = bersih($_POST['email']);
+    $telp  = bersih($_POST['telp']);
+
+    mysqli_query($conn, "INSERT INTO data_anggota 
+        VALUES (NULL,'$nama','$email','$telp')");
+
+    // PRG
+    header("Location: read.php?status=sukses");
+    exit;
+}
+
 header("location: index.php#anggota");

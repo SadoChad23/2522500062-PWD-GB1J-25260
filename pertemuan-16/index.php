@@ -169,6 +169,14 @@ require_once __DIR__ . '/fungsi.php';
     </section>
   </main>
 
+<form action="proses_anggota.php" method="POST">
+    <input type="text" name="nama" required>
+    <input type="email" name="email" required>
+    <input type="text" name="telp" required>
+    <button type="submit" name="kirim">Kirim</button>
+</form>
+
+
   <footer>
     <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
   </footer>

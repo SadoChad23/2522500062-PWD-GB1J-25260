@@ -2,5 +2,6 @@
 muhamad wildan <br>
 25225000062 <br>
 <ol> 
-<li>mencopy item</li>
+    <li>mencopy item</li>
+    <li>form input data anggota</li>
 </ol>

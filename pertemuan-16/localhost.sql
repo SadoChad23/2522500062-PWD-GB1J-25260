@@ -37,6 +37,13 @@ CREATE TABLE `tbl_tamu` (
   `dcreated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE data_anggota (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    telp VARCHAR(20) NOT NULL
+);
+
 --
 -- Dumping data for table `tbl_tamu`
 --

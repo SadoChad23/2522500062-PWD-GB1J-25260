@@ -6,4 +6,5 @@ muhamad wildan <br>
     <li>form input data anggota</li>
     <li>proses insert data anggota</li>
     <li>menampilkan data anggota dan aksi edit delete</li>
+    <li>form edit data anggota</li>
 </ol>

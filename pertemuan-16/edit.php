@@ -95,6 +95,23 @@
       </nav>
     </header>
 
+<?php
+include 'koneksi.php';
+$id = $_GET['id'];
+$d = mysqli_fetch_assoc(
+    mysqli_query($conn,"SELECT * FROM data_anggota WHERE id='$id'")
+);
+?>
+
+<form action="proses_update.php" method="POST">
+    <input type="text" name="id" value="<?= $d['id'] ?>" readonly>
+    <input type="text" name="nama" value="<?= $d['nama'] ?>">
+    <input type="email" name="email" value="<?= $d['email'] ?>">
+    <input type="text" name="telp" value="<?= $d['telp'] ?>">
+    <button type="submit" name="update">Kirim</button>
+    <a href="read.php">Batal</a>
+</form>
+
     <main>
       <section id="contact">
         <h2>Edit Buku Tamu</h2>

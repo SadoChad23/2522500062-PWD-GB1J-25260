@@ -31,6 +31,30 @@
         </div>
 <?php endif; ?>
 
+<?php include 'koneksi.php'; ?>
+<table border="1">
+<tr>
+    <th>No</th><th>Nama</th><th>Email</th><th>Telp</th><th>Aksi</th>
+</tr>
+
+<?php
+$no=1;
+$data = mysqli_query($conn,"SELECT * FROM data_anggota");
+while($d=mysqli_fetch_assoc($data)){
+?>
+<tr>
+    <td><?= $no++ ?></td>
+    <td><?= $d['nama'] ?></td>
+    <td><?= $d['email'] ?></td>
+    <td><?= $d['telp'] ?></td>
+    <td>
+        <a href="edit.php?id=<?= $d['id'] ?>">Edit</a>
+        <a href="proses_delete.php?id=<?= $d['id'] ?>">Delete</a>
+    </td>
+</tr>
+<?php } ?>
+</table>
+
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
     <th>No</th>
